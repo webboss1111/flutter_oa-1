@@ -26,9 +26,18 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+  // final int durationTime = 1;
+  // DateTime _lastPressedAt; //上次点击时间
+  // final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
+  // final snackbar = SnackBar(
+  //   content: Text("再按一次退出"),
+  //   backgroundColor: Colors.lightBlue,
+  //   duration: Duration(seconds: 1),
+  // );
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      // key: _scaffoldKey,
       appBar: AppBar(
         title: Text(widget.title),
       ),

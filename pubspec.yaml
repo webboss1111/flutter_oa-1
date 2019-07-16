@@ -22,10 +22,11 @@ dependencies:
   fish_redux: ^0.2.2
   dio: ^2.1.7
   crypto: ^2.0.6
-
+  shared_preferences: ^0.5.3
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
+  jpush_flutter: 0.0.11
 
 dev_dependencies:
   flutter_test:
@@ -46,6 +47,8 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
    - lib/asset/login-bg.jpg
+   - lib/asset/logo.jpg
+
   #  - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
